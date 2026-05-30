@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    image: popochoo/devops-for-developers-project-74:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.production
